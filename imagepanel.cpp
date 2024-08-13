@@ -1,3 +1,5 @@
+/* wxImagePanel -- A wxPanel which shows images. */
+
 #include "imagepanel.h"
 #include "wx/timer.h"
 #include <wx/rawbmp.h>
