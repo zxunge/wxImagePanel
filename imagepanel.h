@@ -1,4 +1,8 @@
-#pragma once
+/* wxImagePanel -- A wxPanel which shows images. */
+
+#ifndef WXIMAGEPANEL_H_
+#define WXIMAGEPANEL_H_
+
 #include <wx/wx.h>
 
 class ImagePanel : public wxPanel
@@ -43,3 +47,4 @@ public:
 	wxDECLARE_EVENT_TABLE();
 };
 
+#endif
