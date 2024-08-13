@@ -1,16 +1,16 @@
-#include "ImagePanel.h"
+#include "imagepanel.h"
 #include "wx/timer.h"
 #include <wx/rawbmp.h>
 #include "stb_image.h"
 
 //TODO CONST
 wxBEGIN_EVENT_TABLE(ImagePanel, wxPanel)
-EVT_PAINT(ImagePanel::paintEvent)
-EVT_SIZE(ImagePanel::onSize)
-EVT_MOUSEWHEEL(ImagePanel::onScroll)
-EVT_MOTION(ImagePanel::panHandler)
-EVT_LEFT_DOWN(ImagePanel::leftDown)
-EVT_LEFT_UP(ImagePanel::leftUp)
+    EVT_PAINT(ImagePanel::paintEvent)
+    EVT_SIZE(ImagePanel::onSize)
+    EVT_MOUSEWHEEL(ImagePanel::onScroll)
+    EVT_MOTION(ImagePanel::panHandler)
+    EVT_LEFT_DOWN(ImagePanel::leftDown)
+    EVT_LEFT_UP(ImagePanel::leftUp)
 wxEND_EVENT_TABLE()
 
 ImagePanel::ImagePanel(wxWindow* parent) :
